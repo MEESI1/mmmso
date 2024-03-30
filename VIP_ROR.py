@@ -120,7 +120,7 @@ t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2024, 6, 1, 5, 35 ,0)
+g= datetime.datetime(2029, 4, 4, 5, 35 ,0)
 
 if (x.strftime("%x"))>(g.strftime("%x")):
   print('\n\n')
